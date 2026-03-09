@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PublishAot>true</PublishAot>
-    <PackageId>BoxBuild.GitHub.Octokit.SDK</PackageId>
+    <PackageId>CodeCargo.GitHub.Octokit.SDK</PackageId>
     <Version>0.0.1-alpha</Version>
     <NuGetVersion>0.0.1-alpha</NuGetVersion>
     <Title>Octokit</Title>
@@ -14,8 +14,8 @@
     </Description>
     <Authors>GitHub</Authors>
     <PackageTags>GitHub API Octokit dotnet-core</PackageTags>
-    <RepositoryUrl>https://github.com/boxbuild-io/github-dotnet-sdk</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/boxbuild-io/github-dotnet-sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/code-cargo/github-dotnet-sdk</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/code-cargo/github-dotnet-sdk</PackageProjectUrl>
     <PackageIcon>octokit.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>NugetREADME.md</PackageReadmeFile>
