@@ -14,7 +14,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      actions: read
+      id-token: write
     steps:
+      - name: CargoWall
+        uses: code-cargo/cargowall-action@fc9644606d84536b4e59a30ad2802904f7b4ff22 # v1.2.0
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -33,5 +39,3 @@ jobs:
 
       - name: Build and strong name sign
         run: dotnet build src/GitHub.Octokit.SDK.csproj --no-incremental /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../key.snk
-
-
